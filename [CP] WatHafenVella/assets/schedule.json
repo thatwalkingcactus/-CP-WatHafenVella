@@ -1,3 +1,6 @@
 {
-    "spring": "700 Town 102 55 2/1200 Town 49 32 1/1600 Backwoods 20 20 0/2130 Backwoods 29 11 2"
+    "spring": "700 Town 21 11 2/1100 Town 52 32 3/1300 Backwoods 20 20 0/1800 Backwoods 21 11 2",
+    "summer": "700 Town 21 11 2/1100 Town 52 32 3/1300 Backwoods 20 20 0/1800 Backwoods 21 11 2",
+    "fall": "700 Town 21 11 2/1100 Town 52 32 3/1300 Backwoods 20 20 0/1800 Backwoods 21 11 2",
+    "winter": "700 Town 21 11 2/1100 Town 52 32 3/1300 Backwoods 20 20 0/1800 Backwoods 21 11 2"
 }
