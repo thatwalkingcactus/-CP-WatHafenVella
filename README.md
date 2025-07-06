@@ -1,6 +1,10 @@
 # [CP] WatHafenVella
 A Stardew Valley mod that adds Taylor Lautner and his 10-heart event.
 
+
+$${\color{yellow}(For \space regular \space users \space use \space the \space non-shrimp \space version \space of \space the \space mod. \space IYKYK.)
+}$$
+
 *Pre-requisites:*  
 [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400)  
 [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)  
