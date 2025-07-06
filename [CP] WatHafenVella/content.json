@@ -14,6 +14,8 @@
                 "Taylor_05262025/w sunny/Friendship {{ModId}}_Taylor 2500": "playful/-1000 -1000/farmer 22 14 1 {{ModId}}_Taylor 24 14 3 /broadcastEvent true
                 /skippable /viewport 17 14 true
                 /pause 1000
+                /addTemporaryActor {{ModId}}_Shrimp 30 40 42 22 0 true Animal
+                /hideShadow {{ModId}}_Shrimp true
                 /speak {{ModId}}_Taylor \"Hey, @.\"/speak {{ModId}}_Taylor \"I've wanted to show you this for a long time now.\"
                 /pause 1000
                 /move {{ModID}}_Taylor 0 0 1 true
@@ -67,8 +69,7 @@
                 /globalFade/viewport -1000 -1000
                 /emote {{ModId}}_Taylor 56 false
                 /emote {{ModId}}_Taylor 56 false
-                /emote {{ModId}}_Taylor 56 false  
-                /message \"jazz i spent way more time on this than i'd honestly like to admit TT hope you enjoyed\"
+                /emote {{ModId}}_Taylor 56 false
                 /end"
             }
         },
@@ -77,8 +78,7 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                // --- Adding a new music cue ---
-                "{{ModID}}_Taylor10Heart": { // A brand new, unique ID
+                "{{ModID}}_Taylor10Heart": {
                     "ID": "{{ModID}}_Taylor10Heart",
                     "Category": "Music",
                     "FilePaths": [
@@ -96,7 +96,13 @@
             "FromFile": "assets/textures/logo.png"
         },
         {
-            "LogName": "Loads edward",
+            "LogName": "Loads shrimp",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Shrimp",
+            "FromFile": "assets/textures/shrimp.png"
+        },
+        {
+            "LogName": "Loads Edward",
             "Action": "Load",
             "Target": "Animals/{{ModId}}_Edward",
             "FromFile": "assets/textures/edward.png"
