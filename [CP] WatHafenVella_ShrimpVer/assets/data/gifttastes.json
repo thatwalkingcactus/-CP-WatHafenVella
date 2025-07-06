@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Taylor Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{ModId}}_Taylor": "Wow! This is... amazing! My head feels... clear! It helps me think about... what haffen! Thank you, @! For Vella! /720 551 349 226 774 607 724 709 881/Oh! This is... good! Simple. I like simple. Maybe this helps me... not think too much about what haffen. Thank you./194 197 198 404 399 395 253 241 378 380 258/Ugh! This is... too much! My brain... it cannot process this and what haffen at same time! No! I will sure you die, confusing thing!/221 220 306 424 428 346 348/No! What is this?! This is chaos! Unnecessary chaos! It adds to the confusion! It is ang opposite of understanding what haffen! I will sure you die, this item!/172 170 171 168 420 308 306 157 766 680 398/Hmm. This is... okay. It just... is. No big confusion here. Not for Vamfyr. Thank you, I guess./18 402 184 186 330 176 141/"
+            }
+        }
+    ]
+}

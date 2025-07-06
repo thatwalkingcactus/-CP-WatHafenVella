@@ -1,0 +1,141 @@
+{
+    "Format": "2.6.0",
+    "Changes": [
+        {
+            "LogName": "Include Dispos File",
+            "Action": "Include",
+            "FromFile": "assets/data/dispos.json"
+        },
+        {
+            "LogName": "Imports Backwoods with Taylor 10-heart event",
+            "Action": "EditData",
+            "Target": "Data/Events/Backwoods",
+            "Entries": {
+                "Taylor_05262025/w sunny/Friendship {{ModId}}_Taylor 2500": "playful/-1000 -1000/farmer 22 14 1 {{ModId}}_Taylor 24 14 3 /broadcastEvent true
+                /skippable /viewport 17 14 true
+                /pause 1000
+                /addTemporaryActor {{ModId}}_Shrimp 30 40 42 22 0 true Animal
+                /hideShadow {{ModId}}_Shrimp true
+                /speak {{ModId}}_Taylor \"Hey, @.\"/speak {{ModId}}_Taylor \"I've wanted to show you this for a long time now.\"
+                /pause 1000
+                /move {{ModID}}_Taylor 0 0 1 true
+                /pause 1000
+                /playmusic {{ModID}}_Taylor10Heart
+                /emote {{ModId}}_Taylor 56 true
+                /pause 2000
+                /addTemporaryActor {{ModId}}_Logo 121 42 5 15 0 true Animal
+                /move {{ModID}}_Taylor 0 1 3 true
+                /speak {{ModId}}_Taylor \"What hafen Vella? Why you crying again?\"
+                /speak {{ModId}}_Taylor \"I know...\"
+                /speed {{ModId}}_Taylor 5
+                /ignoreMovementAnimation {{ModId}}_Taylor true
+                /move {{ModID}}_Taylor 0 -2 3 true
+                /speak {{ModId}}_Taylor \"Vamfyr, right? Vamfyr will feyt to me...\"
+                /ignoreMovementAnimation {{ModId}}_Taylor false
+                /move {{ModID}}_Taylor 2 0 1 true
+                /move farmer 2 0 1 true
+                /speed {{ModID}}_Logo 3
+                /move {{ModId}}_Logo 10 0 0 true
+                /addTemporaryActor {{ModId}}_Edward 114 160 34 13 0 true Animal
+                /viewport move 3 0 4000
+                /emote {{ModId}}_Taylor 16 true
+                /emote farmer 16 true
+                /speak {{ModId}}_Taylor \"Edward! What are you doing here?\"
+                /speak {{ModId}}_Taylor \"I trusted to protect Bella. But you did not.\"
+                /move {{ModID}}_Taylor 2 0 1 true
+                /speak {{ModId}}_Taylor \"I will sure you die, Edward!\"
+                /speed {{ModId}}_Taylor 5
+                /beginSimultaneousCommand /move {{ModID}}_Taylor 2 0 1 true /jump {{ModId}}_Taylor 8 /endSimultaneousCommand
+                /speak {{ModId}}_Taylor \"I will sure you die!\"
+                /speak {{ModId}}_Taylor \"From now on, she is mine.\"
+                /speed {{ModId}}_Taylor 4
+                /beginSimultaneousCommand  /move {{ModID}}_Taylor 3 0 1 true /emote {{ModId}}_Taylor 12 true /jump {{ModId}}_Taylor 8 /endSimultaneousCommand
+                /pause 1000
+                /shake {{ModId}}_Edward 3000
+                /pause 2000
+                /warp {{ModId}}_Edward -30 -30 true
+                /pause 1000
+                /move {{ModID}}_Taylor -6 0 3 true
+                /pause 1000
+                /speak {{ModId}}_Taylor \"And I have died everyday, waiting for you...\"
+                /emote {{ModId}}_Taylor 56 true
+                /emote {{ModId}}_Taylor 56 true
+                /speed {{ModId}}_Taylor 2
+                /move {{ModId}}_Taylor 20 0 1 true
+                /speak {{ModId}}_Taylor \"Darling don't be afraid, I have loved you...\"
+                /emote {{ModId}}_Taylor 56 true
+                /pause 1000
+                /emote {{ModId}}_Taylor 56 false
+                /globalFade/viewport -1000 -1000
+                /emote {{ModId}}_Taylor 56 false
+                /emote {{ModId}}_Taylor 56 false
+                /emote {{ModId}}_Taylor 56 false  
+                /message \"jazz i spent way more time on this than i'd honestly like to admit TT hope you enjoyed\"
+                /end"
+            }
+        },
+        {
+            "LogName": "Adds 10-heart music",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_Taylor10Heart": {
+                    "ID": "{{ModID}}_Taylor10Heart",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/music/tenheart.ogg}}"
+                    ],
+                    "Looped": true,
+                    "StreamedVorbis": true
+                }
+            }
+        },
+        {
+            "LogName": "Loads event logo",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Logo",
+            "FromFile": "assets/textures/logo.png"
+        },
+        {
+            "LogName": "Loads shrimp",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Shrimp",
+            "FromFile": "assets/textures/shrimp.png"
+        },
+        {
+            "LogName": "Loads Edward",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Edward",
+            "FromFile": "assets/textures/edward.png"
+        },
+        {
+            "LogName": "Loads sprite files (walking animations)",
+            "Action": "Load",
+            "Target": "Characters/{{ModId}}_Taylor",
+            "FromFile": "assets/textures/sprites.png"
+        },
+        {
+            "LogName": "Loads portrait files",
+            "Action": "Load",
+            "Target": "Portraits/{{ModId}}_Taylor",
+            "FromFile": "assets/textures/portraits.png"
+        },
+        {
+            "LogName": "Loads dialogue files",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/{{ModId}}_Taylor",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "LogName": "Loads schedule files",
+            "Action": "Load",
+            "Target": "Characters/schedules/{{ModId}}_Taylor",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "LogName": "Inclueds gift tastes files",
+            "Action": "Include",
+            "FromFile": "assets/data/gifttastes.json"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "LogName": "Makes Taylor Exist",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModId}}_Taylor": {
+                    "DisplayName": "Taylor Lautner",
+                    "Gender": "Male", //self-explanatory: can be male, female, or undefined (for nonbinary)
+                    "Age": "Teen", //can be child, teen or adult; affects certain default strings
+                    "Manner": "Neutral", //can be polite, neutral, or rude; affects certain default strings
+                    "SocialAnxiety": "Neutral", //can be outgoing, neutral, or shy; affects certain default strings
+                    "Optimism": "Neutral", //can be positive, neutral, or negative; affects certain default strings
+                    "BirthSeason": "winter", //self-explanatory
+                    "BirthDay": "14", //self-explanatory
+                    "HomeRegion": "Town", //can be Town, Desert, or Other - I suggest Town so they're included in certain activities like the Luau friendship boost and Winter Star, unless you're doing a hidden or non-human NPC, in which case you might want Other. 
+                    "CanBeRomanced": true, //Whether or not the NPC is dateable/marryable.
+                    "Home": [ //set this to where you want the NPC to spawn in normally.  
+                        {
+                            "Id": "Default",
+                            "Location": "Backwoods",
+                            "Tile": {
+                                "X": 21,
+                                "Y": 11
+                            },
+                            "Direction": "Down"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

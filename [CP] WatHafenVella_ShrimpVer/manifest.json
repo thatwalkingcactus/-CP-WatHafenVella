@@ -1,0 +1,11 @@
+{
+    "Name": "WatHafenVella",
+    "Author": "Prickles",
+    "Version": "1.0.2",
+    "Description": "Adds Taylor Lautner and his 10-heart event.",
+    "UniqueID": "Prickles.WatHafenVella",
+    "UpdateKeys": [ "GitHub:thatwalkingcactus/-CP-WatHafenVella" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
